@@ -1,0 +1,52 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+div font{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder; 
+    color: #181818;
+    
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 126px;
+    padding-right: 130px;
+}
+.navb{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: #474747;
+    list-style-type: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    gap: 50px;
+}
+.navb ul{
+    text-decoration:line-through;
+    font-style: normal;
+}
+.btn{
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 36px;
+    font-size:20;
+    font-weight: bold;
+    height: 64;
+    width: 150;
+}
