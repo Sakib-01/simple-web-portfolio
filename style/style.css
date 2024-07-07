@@ -19,7 +19,7 @@
 header{
     min-height: 600px;
     background-image:url("../images/developer.png");
-    background-color: rgb(255, 248, 243);;
+    background-color: rgb(255, 248, 243);
     background-repeat: no-repeat;
     background-size: 100px 550px;  
     background-position-x: 10px;
@@ -81,7 +81,7 @@ header{
     font-size: 20px;
     font-weight: 700;
 }
-section{
+.head{
     margin: 40px 20px 0px 120px;
     display: flex;
     justify-content: space-between;
@@ -139,3 +139,78 @@ section{
     border-radius: 5px;
 }
 
+/* about section style */
+
+.about-container{
+    width: 1140px;
+    height: 550px;
+    margin: 0px auto;
+    background-color: rgb(255, 248, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.about-content{
+    width: 827px;
+    height: 288px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+
+}
+.about-content h4{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 10px;
+    
+
+}
+.about-content p {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.description{
+    width: 782px;
+    height: 60px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-content: space-between;
+    gap: 50px;
+    margin: 20px 0px;
+    background-color: white;
+}
+.description .items{
+    width: 118px;
+
+    height: 60px;
+    
+}
+.description .items p{
+    Font: Open Sans;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(117, 117, 117);
+    
+}
+.description .items h6{
+    Font: Open Sans;
+    Font-weight: 700;
+    Font-size: 20px;
+    color: rgb(71, 71, 71);
+}
