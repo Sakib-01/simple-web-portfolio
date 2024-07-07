@@ -17,11 +17,11 @@
  }
 
 header{
-    min-height: 600px;
+    height: 837px;
     background-image:url("../images/developer.png");
     background-color: rgb(255, 248, 243);
     background-repeat: no-repeat;
-    background-size: 100px 550px;  
+    background-size: 100px 700px;  
     background-position-x: 10px;
     background-position-y: 20px;
 }
@@ -81,16 +81,30 @@ header{
     font-size: 20px;
     font-weight: 700;
 }
+.btn-primary{
+    width: 200px;
+    height: 64px;
+    background-color: rgb(253, 110, 10);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 130px;
+}
 .head{
-    margin: 40px 20px 0px 120px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:flex-start;
     background-image: url(../images/header_bg.png);
     background-position: right;
     background-repeat: no-repeat;
+    background-size: 1036px 518px; 
+
     background-position-x: 700px;
-    background-position-y: 60px;
+    background-position-y: 158px;
 
 }
 .header-container{
@@ -105,8 +119,13 @@ header{
     line-height: 61px;
     letter-spacing: 0%;
     text-align: left;
+    margin-top: 185px;
+    margin-left: 130px;
 }
 .header-container h1{
+    width: 498px;
+
+    height: 116px;
     color: rgb(24, 24, 24);
     font-family: Open Sans;
     font-size: 85px;
@@ -114,6 +133,7 @@ header{
     line-height: 116px;
     letter-spacing: 0%;
     text-align: left;
+    margin-left: 130px;
 }
 .header-container p{
     color: rgb(117, 117, 117);
@@ -124,11 +144,13 @@ header{
     letter-spacing: 0%;
     text-align: left;
     margin-bottom: 10px;
+    margin-left: 130px;
 }
 .btn-secondary{
     width: 150px;
     height: 64px;
     color: rgb(253, 110, 10);
+    background-color: rgb(3, 5, 93);
     font-family: Open Sans;
     font-size: 20px;
     font-weight: 700;
@@ -150,7 +172,7 @@ header{
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 .about-content{
     width: 827px;
@@ -305,3 +327,166 @@ header{
 
 }
 
+/*resume style*/
+
+.resume-container{
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-content h3{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 130px;  
+}
+.resume{
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resume .left-content{
+    width: 50%;
+    padding: 5px;
+    margin-left: 250px;
+}
+.resume .right-content{
+    width: 50%;
+    padding: 5px;
+    margin-right: 150px;
+    
+}
+.resume-items h3{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.resume-items h4{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+.resume-items h5{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.resume-items p{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-right: 47px;
+}
+hr{
+    border: 1px solid rgb(209, 209, 209);
+    width: 92%;
+}
+
+/* footer part style */
+
+.footer-container{
+    background: rgb(255, 248, 243);
+
+    height: 780px;    
+
+    margin-top: 130px;
+}
+.footer-content{
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+.contact{
+    width: 40%;
+}
+.contact h3{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 130px;
+
+}
+.contact p{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    width: 24px;
+
+    height: 24px;
+    gap: 24px;
+}
+.message h2{
+    margin-right: 300px;
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 24px;
+}
+.message .item{
+    width: 461px;
+
+    height: 64px;
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;    
+    margin-bottom: 24px;
+    
+
+}
